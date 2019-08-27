@@ -14,4 +14,4 @@ RUN a2enmod rewrite
 
 RUN docker-php-ext-install pdo pdo_mysql
 
-RUN docker-php-ext-install mcrypt bcmath gmp
+RUN docker-php-ext-install bcmath gmp
