@@ -16,6 +16,4 @@ RUN docker-php-ext-install pdo pdo_mysql
 
 RUN docker-php-ext-install bcmath
 
-RUN docker-php-ext-install zip
-
 RUN docker-php-ext-install gd
